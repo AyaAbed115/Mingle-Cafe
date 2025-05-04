@@ -1,0 +1,58 @@
+.navbar .container .navbar-brand{
+    color: #ffffff;
+    font-family:cursive;
+    font-size: 30px;
+}
+.navbar .container .navbar-brand span{
+    color: #e0be91;
+}
+.navbar .container i{
+    color: #e0be91;
+    font-size: 25px;
+}
+.navbar .container .navbar-nav .nav-item .nav-link{
+    color: #fffff4;
+    font-family:cursive;
+    font-size: 20px;
+}
+.offer h1{
+    font-family: cursive;
+    color: #754E1A;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.offer h2{
+    font-family: cursive;
+    color: #754E1A;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.offer .card{
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+.offer .card .card-title{
+    font-family: cursive;
+    color: #754E1A;
+}
+.offer .card .card-text-offer{
+    color: #fd0101;
+    font-weight: bold;
+}
+.offer .card .card-text{
+    color: rgb(16, 146, 33);
+    font-weight: bold;
+}
+.footer {
+    margin-top: 40px;  
+}
+@media only screen and (max-width: 767px){
+    .navbar .container i{
+        color: #ffffff;
+        font-size: 20;
+        position: relative; 
+        right: 170px; 
+    }
+}

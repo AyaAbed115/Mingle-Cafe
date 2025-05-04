@@ -1,0 +1,99 @@
+*{
+    font-family: cursive !important;
+}
+.navbar .container .navbar-brand{
+    color: #ffffff;
+    font-family:cursive;
+    font-size: 30px;
+}
+.navbar .container .navbar-brand span{
+    color: #e0be91;
+}
+.navbar .container i{
+    color: #e0be91;
+    font-size: 25px;
+}
+.navbar .container .navbar-nav .nav-item .nav-link{
+    color: #fffff4;
+    font-family:cursive;
+    font-size: 20px;
+}
+h1{
+    color: #754E1A !important;
+    font-family: cursive;
+}
+/* Signup Form */
+.signup-container {
+    background: #fbe6ca;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    margin: auto; /* حذف margin-top و margin-bottom */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #754E1A;
+    font-size: 30px !important;
+    font-weight: 700 !important;
+}
+
+form label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+    color: #754E1A;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"] {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #fbe6ca;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #e0be91;
+    color: #754E1A;
+}
+
+form input[type="checkbox"] {
+    margin-right: 0.5rem;
+}
+
+.btn-submit {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #754E1A;;
+    border: none;
+    border-radius: 5px;
+    color: #fbe6ca;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #dab586;
+    color: #754E1A;
+}
+.footer {
+    margin-top: 40px;  
+}
+@media only screen and (max-width: 767px){
+    .navbar .container i{
+        color: #ffffff;
+        font-size: 20;
+        position: relative; 
+        right: 170px; 
+    }
+}
